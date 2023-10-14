@@ -1,0 +1,11 @@
+[project]
+name = "stringtobase64"
+version = "1.0.0"
+description = "A basic app that converts UTF-8 strings to their Base64 equivalents"
+dependencies = [
+    "flask", "base64"
+]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
